@@ -7,15 +7,142 @@
     <div class="row">
       <div class="col s12">
         <div class="card-panel">
-          <h4>{{ .Title }}</h4>
-          <p>
-          {{if .Params.categories }}
-            {{ range $index, $category := .Params.categories }}
-              <a href="{{$baseurl}}/categories/{{ $category | urlize }}/">{{ $category }}</a>
-            {{ end }}
-          {{end}} 
-          </p>
-          <p>{{ .Content }}</p>
+          <div class="card-header">
+            <h4>{{ .Title }}</h4>
+            <p>
+            {{if .Params.categories }}
+              {{ range $index, $category := .Params.categories }}
+                <a href="{{$baseurl}}/categories/{{ $category | urlize }}/">{{ $category }}</a>
+              {{ end }}
+            {{end}} 
+            </p>
+          </div>
+          <div class="card-content">
+            <p>
+
+              <div class="row">
+
+                <div class="col s12">
+
+                  <ul class="tabs">
+
+                    <li class="tab col s3">
+                      <a class="active" href="#info">Info</a>
+                    </li>
+
+                    {{if .Params.story }}
+                    <li class="tab col s3">
+                      <a href="#story">The Story</a>
+                    </li>
+                    {{end}}
+
+                    {{if .Params.myrole }}
+                    <li class="tab col s3">
+                      <a href="#myrole">My Role</a>
+                    </li>
+                    {{end}}
+
+                    {{if .Params.download }}
+                    <li class="tab col s3">
+                      <a href="#download">Download</a>
+                    </li>
+                    {{end}}
+
+                    {{if .Params.credits }}
+                    <li class="tab col s3">
+                      <a href="#credits">Credits</a>
+                    </li>
+                    {{end}}
+
+                  </ul>
+
+                  <br><br>
+
+                  <div class="col s12" id="info">
+                    {{ .Params.info }}
+                    <br><br>
+                  </div>
+
+                  {{if .Params.story }}
+                  <div class="col s12" id="story">
+                    {{ range $index, $line := .Params.story }}
+                      {{ $line }}
+                      <br><br>
+                    {{end}}
+                    <br><br>
+                  </div>
+                  {{end}}
+
+                  {{if .Params.myrole }}
+                  <div class="col s12" id="myrole">
+
+                    {{if .Params.roletitle }}
+                    <h4>{{ .Params.roletitle }}</h4>
+                    {{end}}
+                    <br>
+
+                    {{ .Params.myrole }}
+
+                    <br><br>
+
+                    {{if .Params.disclaimer }}
+                    <br>
+                    <b>Disclaimer</b><br>
+                    My role as a writer means abiding by the guidelines set by my commissioner.<br>
+                    I did not come up with the story, the characters, or even decide on the writing style used for this game.<br>
+                    I simply put my commissioner's story into words.<br><br>
+                    {{end}}
+
+                    <br><br>
+                  </div>
+                  {{end}}
+
+                  {{if .Params.download }}
+                  <div class="col s12" id="download">
+                    
+                    {{if .Params.steam }}
+                    <br>
+                    <a href="http://store.steampowered.com/app/{{ .Params.steam }}/">Download from Steam</a>
+                    <br>
+                    {{end}}
+                    
+                    {{if .Params.itchid }}
+                    <br>
+                    <iframe frameborder="0" src="https://itch.io/embed/{{ .Params.itchid }}" width="552" height="167"></iframe>
+                    <br>
+                    {{end}}
+                    
+                    {{if .Params.itch }}
+                    <br>
+                    <a href="{{ .Params.itch }}">Download from Itch.io</a>
+                    <br>
+                    {{end}}
+
+                    {{if .Params.gplay }}
+                    <br>
+                    <a href="https://play.google.com/store/apps/details?id={{ .Params.gplay }}">Download for Android from Google Play</a>
+                    <br>
+                    {{end}}
+
+                    <br><br>
+                  </div>
+                  {{end}}
+                  
+                  {{if .Params.credits }}
+                  <div class="col s12" id="credits">
+                    {{ .Params.credits }}
+                    <br><br>
+                  </div>
+                  {{end}}
+
+                  <br><br>
+
+                </div>
+
+              </div>
+
+            </p>
+          </div>
           <p>{{ .Date.Format "2 Jan 2006" }}
             {{if .Params.tags }}
               {{ range $index, $tag := .Params.tags }}
@@ -38,7 +165,7 @@
         <a class="btn-floating btn-large disabled"><i class="mdi-navigation-arrow-back"></i></a>
       {{end}}
       </div>
-      <div class="col s6 m10 center">&nbsp</div>
+      <div class="col s6 m10 center">&nbsp;</div>
       <div class="col s3 m1">
       {{if .Next}}
         <a class="btn-floating btn-large waves-effect waves-light" href="{{ .Next.Permalink }}"><i class="mdi-navigation-arrow-forward"></i></a>

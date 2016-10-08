@@ -3,58 +3,29 @@ Categories = ["Commissioned Games"]
 Tags = []
 date = "2016-09-07T11:22:25+10:00"
 title = "No One But You"
-image = "noby.png"
+logo = "logo_noby.png"
+icon = "icon_noby.png"
+
+info = "No One But You is a Visual Novel developed by Unwonted Studios and produced by Sekai Project."
+
+story = [
+	"No One But You is a Visual Novel/Dating Sim about Hideaki, a high school student who has just returned to his hometown, Okutama.",
+	"Upon returning, Hideaki re-discovers a town he knew from childhood, meeting new friends and reuniting with those he had long forgotten. He resumes his high school life in the big city, quickly adapting to the change in pace, and before he knows it, Hideaki begins to think of this city as his home once more.",
+	"Hideaki's life in Okutama is upbeat and fun, thanks to the many friends he makes, including Megumi, an energetic student council member; Chinatsu, a reserved senior in the literature club; Shiro, an unsociable music-lover; and Yui, an obstinate girl who rarely expresses herself honestly.",
+	"Surrounded by an interesting group of friends, Hideaki lives out his days without a care in the world, content to enjoy a normal high school life. Whether he's going out with friends or studying for exams, his new life is truly peaceful.",
+	"But not for long.",
+	"As Hideaki's stay in Okutama continues, ghosts from his past begin to come back, increasingly intruding on the new life he's trying to build. As if that wasn't bad enough, his new friends all have secrets of their own, and the more Hideaki involves himself with their daily lives, the deeper into mutual despair he sinks.",
+	"Will you be able to put to rest the evils of the past and finally live out the normal high school life you crave? Will you be able to put your friends' minds at ease, erasing the trauma and misery ruining their otherwise peaceful lives?",
+	"Because whether you like it or not, for this very task it can be no one but you."
+]
+
+roletitle = "Co-writer"
+myrole = "I was one of approximately 5 writers working on No One But You. I wrote the routes for Megumi and Shiro, as well as the girls' sex scenes."
+disclaimer = "True"
+
+download = "True"
+steam = "367020"
+itch = "https://unwontedstudios.itch.io/no-one-but-you"
+itchid = "25415"
 
 +++
-
-<div class="row">
-
-	<div class="col s12">
-
-		<ul class="tabs">
-			<li class="tab col s3"><a class="active" href="#info">Info</a></li>
-	        <li class="tab col s3"><a href="#story">The Story</a></li>
-	        <li class="tab col s3"><a href="#download">Download</a></li>
-	        <li class="tab col s3"><a href="#credits">Credits</a></li>
-		</ul>
-
-		<br><br>
-
-		<div class="col s12" id="info">
-
-			No One But You is a Visual Novel developed by Unwonted Studios and produced by Sekai Project.
-
-			<h4>My role</h4>
-			<br>
-
-			Co-writer<br><br>
-
-			I was one of approximately 5 writers working on No One But You. I wrote the routes for Megumi and Shiro, as well as the girls' sex scenes.<br><br>
-
-			<b>Disclaimer</b><br>
-			The story, writing style, characters, etc. were all outlined by the commissioner.<br>
-			I just put their story into words.
-
-		</div>
-		<div class="col s12" id="story">
-
-			...
-
-		</div>
-		<div class="col s12" id="download">
-
-			Download from Steam:
-
-			Download from Itch:
-
-		</div>
-		<div class="col s12" id="credits">
-
-			...
-
-		</div>
-		<br><br>
-
-	</div>
-
-</div>
