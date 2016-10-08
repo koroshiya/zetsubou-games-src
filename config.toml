@@ -1,0 +1,15 @@
+theme="material-design"
+baseurl = "http://zetsubou.games/"
+languageCode = "en-us"
+title = "Zetsubou's development blog"
+
+paginate = 6 # To specify a multiple of 3
+
+[params]
+#  description = "Zetsubou's development blog" # optional
+  github = "koroshiya" # optional
+  headerCover = "images/headerCover.png" # optional
+  footerCover = "images/footerCover.png" # optional
+
+[permalinks]
+  post = "/:year/:month/:day/:title/" # optional
