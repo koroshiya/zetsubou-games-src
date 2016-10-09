@@ -26,14 +26,8 @@ nav{
 .nav-wrapper > ul > li{
   background-color: #000;
 }
-.nav-wrapper > ul > li:hover{
-  opacity: .8;
-}
 #index-banner > div > div > a > h1{
   color: #d93344 !important;
-}
-#index-banner > div > div > a > h1:hover{
-  opacity: .8;
 }
 .page-footer{
   background-color: #000 !important;
@@ -46,11 +40,20 @@ nav{
 .card-header, .card-content{
   padding: 10px;
 }
+.card-content > p{
+  margin-bottom: 0;
+}
 .card-header{
   background-color: #19181e;
 }
 .card-header > p{
   display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.card-header > h4{
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 .card-header > p > a{
   padding: 10px;
@@ -59,7 +62,7 @@ nav{
 .card-header > h4 > a, .card-header > p > a{
   color: #FFF;
 }
-.card-header > h4 > a:hover, .card-header > p > a:hover{
+a:hover{
   opacity:.8;
 }
 .collection-item{
@@ -68,9 +71,6 @@ nav{
 }
 .collection-item:not(:last-child){
   border-bottom: 1px solid #000 !important;
-}
-.collection-item:hover{
-  opacity:.6;
 }
 .collection{
   border: 1px solid #000 !important;

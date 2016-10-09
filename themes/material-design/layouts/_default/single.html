@@ -142,17 +142,17 @@
               </div>
 
             </p>
+            <p>{{ .Date.Format "2 Jan 2006" }}
+              {{if .Params.tags }}
+                {{ range $index, $tag := .Params.tags }}
+                  <a href="{{$baseurl}}/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>
+                {{ end }}
+              {{end}}
+            </p>
+            {{ with .Site.DisqusShortname }}
+              {{ partial "disqus.html" . }}
+            {{ end }}
           </div>
-          <p>{{ .Date.Format "2 Jan 2006" }}
-            {{if .Params.tags }}
-              {{ range $index, $tag := .Params.tags }}
-                <a href="{{$baseurl}}/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>
-              {{ end }}
-            {{end}}
-          </p>
-          {{ with .Site.DisqusShortname }}
-            {{ partial "disqus.html" . }}
-          {{ end }}
         </div>
       </div>
     </div>
