@@ -89,8 +89,13 @@ a:hover{
   margin: 0;
   max-width: 100%;
 }
+.row{
+  text-align: center;
+}
 .row .col.m4{
   width: 320px;
+  float: none;
+  display: inline-block;
 }
 .container{
   width:90%;
