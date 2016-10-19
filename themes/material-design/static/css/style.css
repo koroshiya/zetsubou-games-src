@@ -13,29 +13,12 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+.parallax-container .section {
+  width: 100%;
 }
 
 
@@ -45,4 +28,21 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.header-img{
+  margin: 0 auto;
+  display: block;
+  max-width: 1000px;
+}
+
+nav > div > ul > li > a > img{
+  padding-top: 7px;
+  display: inherit;
+}
+
+@media only screen and (max-width : 360px) {
+  nav > div > ul > li > a > img {
+    display:none;
+  }
 }

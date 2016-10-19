@@ -4,7 +4,7 @@ body{
 }
 .a_icon{
   text-align: center;
-  display: block;
+  display: inline-block;
   height:220px;
 }
 .a_icon > img{
@@ -82,12 +82,16 @@ a:hover{
   background-color: transparent;
 }
 #index-banner{
-  min-height:auto;
-  background-color:#19181e;
+  background-color:#000;
 }
 #index-banner > div > .container{
   width: 100%;
   margin: 0;
   max-width: 100%;
-  background-color:#19181e;
+}
+.row .col.m4{
+  width: 320px;
+}
+.container{
+  width:90%;
 }
