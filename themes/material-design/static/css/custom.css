@@ -43,6 +43,9 @@ nav{
 .card-content > p{
   margin-bottom: 0;
 }
+.card-content > div.row{
+  text-align:left;
+}
 .card-header{
   background-color: #19181e;
 }
