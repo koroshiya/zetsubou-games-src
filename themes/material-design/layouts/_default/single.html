@@ -64,7 +64,7 @@
                   </div>
 
                   {{if .Params.story }}
-                  <div class="col s12" id="story">
+                  <div class="col s12" id="story" style="display:none;">
                     {{ range $index, $line := .Params.story }}
                       {{ $line }}
                       <br><br>
@@ -74,7 +74,7 @@
                   {{end}}
 
                   {{if .Params.myrole }}
-                  <div class="col s12" id="myrole">
+                  <div class="col s12" id="myrole" style="display:none;">
 
                     {{if .Params.roletitle }}
                     <h4>{{ .Params.roletitle }}</h4>
@@ -98,7 +98,7 @@
                   {{end}}
 
                   {{if .Params.download }}
-                  <div class="col s12" id="download">
+                  <div class="col s12" id="download" style="display:none;">
                     
                     {{if .Params.steam }}
                     <br>
@@ -129,7 +129,7 @@
                   {{end}}
                   
                   {{if .Params.credits }}
-                  <div class="col s12" id="credits">
+                  <div class="col s12" id="credits" style="display:none;">
                     {{ .Params.credits }}
                     <br><br>
                   </div>
