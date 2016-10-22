@@ -6,7 +6,7 @@ title = "No One But You"
 logo = "logo_noby.png"
 icon = "icon_noby.png"
 
-info = "No One But You is a Visual Novel developed by Unwonted Studios and produced by Sekai Project."
+info = "No One But You is a Visual Novel developed by Unwonted Studios and produced by Sekai Project. No One But You was funded by a Kickstarter campaign, and released in February 2016."
 
 story = [
 	"No One But You is a Visual Novel/Dating Sim about Hideaki, a high school student who has just returned to his hometown, Okutama.",

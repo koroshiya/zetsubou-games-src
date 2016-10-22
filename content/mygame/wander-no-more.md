@@ -6,7 +6,7 @@ title = "Wander No More"
 logo = "logo_wnm.png"
 icon = "icon_wnm.png"
 
-info = "Wander No More is my second personal game project. Wander No More is a short, free Kinetic Novel set on an “alternate Earth”, and takes place in a land resembling feudal Japan."
+info = "Wander No More is my second personal game project. Wander No More is a short, free Kinetic Novel set on an “alternate Earth”, and takes place in a land resembling feudal Japan. Wander No More was developed for the 2016 NaNoRenO game jam."
 
 story = [
 	"When Kouichirou Nabatame finally worked up the courage to desert his kingdom, he thought his days of bloodshed were behind him. He believed that if he ran far enough, and for long enough, he could leave it all behind. A normal life would finally be his, and he would be able to spend his days peacefully, helping others and protecting their happiness, rather than destroying them without mercy.",

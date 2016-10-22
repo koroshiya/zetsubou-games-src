@@ -6,7 +6,7 @@ title = "Written In The Sky"
 logo = "logo_wits.png"
 icon = "icon_wits.png"
 
-info = "Written In The Sky is a yuri (Girl x Girl) visual novel created by Unwonted Studios as an entry in Yuri Jam."
+info = "Written In The Sky is a yuri (Girl x Girl) visual novel created by Unwonted Studios as an entry in the 2015 Yuri Game Jam."
 
 story = [
 	"As the daughter of a detective, Azure has always been a curious child.",

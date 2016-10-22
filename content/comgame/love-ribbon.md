@@ -6,7 +6,7 @@ title = "Love Ribbon"
 logo = "logo_lr.jpg"
 icon = "icon_lr.jpg"
 
-info = "Love Ribbon is a Yuri (Girl x Girl) Visual Novel developed by RazzArt Studios."
+info = "Love Ribbon is a Yuri (Girl x Girl) Visual Novel being developed by RazzArt Studios."
 
 story = [
 	"The story follows Iris, a girl who learns that her younger sister is transferring to her school, and will be living with her for the rest of the semester. Even though she has never met her sister before, Iris is determined to make up for lost time by becoming friends, and more importantly, to show off her dependable nature as the older sister of the household.",

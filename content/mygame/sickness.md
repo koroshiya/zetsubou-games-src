@@ -6,7 +6,7 @@ title = "Sickness"
 logo = "logo_sickness.png"
 icon = "icon_sickness.png"
 
-info = "Sickness is my first personal game project. Sickness is a Visual Novel which takes place in modern society, focusing on the criminal underworld of a town called Richmond."
+info = "Sickness is my first personal game project. Sickness is a Visual Novel which takes place in modern society, focusing on the criminal underworld of a town called Richmond. Sickness was released in February 2016."
 
 story = [
 	"Sickness is a Visual Novel following the life of Suoh, a high school student turned violent criminal.",

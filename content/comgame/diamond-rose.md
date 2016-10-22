@@ -6,7 +6,7 @@ title = "Diamond Rose"
 logo = "logo_dr.jpg"
 icon = "icon_dr.jpg"
 
-info = "Diamond Rose is a short fantasy RPG / Visual Novel developed for the NaNoRenO game jam by Sendo."
+info = "Diamond Rose is a short fantasy RPG / Visual Novel developed for the 2016 NaNoRenO game jam by Sendo."
 
 story = [
 	"The story follows Van, a promising young craftsman. Fueled only by his passion for crafting, he left his hometown and set out to make it big in the bustling city of Azalea.",
