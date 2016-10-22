@@ -6,7 +6,10 @@ title = "Max Massacre"
 logo = "logo_mm.png"
 icon = "icon_mm.png"
 
-info = "Max Massacre is my third personal game project. Max Massacre is a short, free Kinetic Novel set in a ficticious, RPG-like fantasy world."
+info = [
+	"Max Massacre is my third personal game project.",
+	"Max Massacre is a short, free Kinetic Novel set in a fictitious, RPG-like fantasy world."
+]
 
 +++
 

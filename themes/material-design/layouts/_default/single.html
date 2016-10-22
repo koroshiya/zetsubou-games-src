@@ -17,6 +17,7 @@
             {{end}} 
             </p>
           </div>
+          {{with .Params }}
           <div class="card-content">
             <p>
 
@@ -30,25 +31,25 @@
                       <a class="active" href="#info">Info</a>
                     </li>
 
-                    {{if .Params.story }}
+                    {{if .story }}
                     <li class="tab col s3">
                       <a href="#story">The Story</a>
                     </li>
                     {{end}}
 
-                    {{if .Params.myrole }}
+                    {{if .myrole }}
                     <li class="tab col s3">
                       <a href="#myrole">My Role</a>
                     </li>
                     {{end}}
 
-                    {{if .Params.download }}
+                    {{if .download }}
                     <li class="tab col s3">
                       <a href="#download">Download</a>
                     </li>
                     {{end}}
 
-                    {{if .Params.credits }}
+                    {{if .credits }}
                     <li class="tab col s3">
                       <a href="#credits">Credits</a>
                     </li>
@@ -59,33 +60,36 @@
                   <br><br>
 
                   <div class="col s12" id="info">
-                    {{ .Params.info }}
+                    {{ range .info }}
+                      {{ . }}
+                      <br><br>
+                    {{end}}
                     <br><br>
                   </div>
 
-                  {{if .Params.story }}
+                  {{with .story }}
                   <div class="col s12" id="story" style="display:none;">
-                    {{ range $index, $line := .Params.story }}
-                      {{ $line }}
+                    {{ range . }}
+                      {{ . }}
                       <br><br>
                     {{end}}
                     <br><br>
                   </div>
                   {{end}}
 
-                  {{if .Params.myrole }}
+                  {{if .myrole }}
                   <div class="col s12" id="myrole" style="display:none;">
 
-                    {{if .Params.roletitle }}
-                    <h4>{{ .Params.roletitle }}</h4>
+                    {{with .roletitle }}
+                    <h4>{{.}}</h4>
                     {{end}}
                     <br>
 
-                    {{ .Params.myrole }}
+                    {{ .myrole }}
 
                     <br><br>
 
-                    {{if .Params.disclaimer }}
+                    {{if .disclaimer }}
                     <br>
                     <b>Disclaimer</b><br>
                     My role as a writer means abiding by the guidelines set by my commissioner.<br>
@@ -97,30 +101,32 @@
                   </div>
                   {{end}}
 
-                  {{if .Params.download }}
+                  {{if .download }}
                   <div class="col s12" id="download" style="display:none;">
                     
-                    {{if .Params.steam }}
+                    {{with .steam }}
                     <br>
-                    <a href="http://store.steampowered.com/app/{{ .Params.steam }}/">Download from Steam</a>
-                    <br>
-                    {{end}}
-                    
-                    {{if .Params.itchid }}
-                    <br>
-                    <iframe frameborder="0" src="https://itch.io/embed/{{ .Params.itchid }}" width="552" height="167"></iframe>
+                    <a href="http://store.steampowered.com/app/{{.}}/">
+                      <img src="{{$baseurl}}/images/Steam_logo.png" alt="Download from Steam" /><!--CC0 image from https://commons.wikimedia.org/wiki/File:Steam_logo.svg -->
+                    </a>
                     <br>
                     {{end}}
                     
-                    {{if .Params.itch }}
+                    {{with .itchid }}
                     <br>
-                    <a href="{{ .Params.itch }}">Download from Itch.io</a>
+                    <iframe frameborder="0" src="https://itch.io/embed/{{.}}" width="552" height="167"></iframe>
+                    <br>
+                    {{end}}
+                    
+                    {{with .itch }}
+                    <br>
+                    <a href="{{.}}">Download from Itch.io</a>
                     <br>
                     {{end}}
 
-                    {{if .Params.gplay }}
+                    {{with .gplay }}
                     <br>
-                    <a href="https://play.google.com/store/apps/details?id={{ .Params.gplay }}">Download for Android from Google Play</a>
+                    <a href="https://play.google.com/store/apps/details?id={{.}}">Download for Android from Google Play</a>
                     <br>
                     {{end}}
 
@@ -128,9 +134,24 @@
                   </div>
                   {{end}}
                   
-                  {{if .Params.credits }}
+                  {{ with .credits }}
                   <div class="col s12" id="credits" style="display:none;">
-                    {{ .Params.credits }}
+                    <table>
+                      <thead>
+                        <th>Role</th>
+                        <th>Name</th>
+                        <th>Website</th>
+                      </thead>
+                      <tbody>
+                        {{ range . }}
+                        <tr>
+                          {{ range . }}
+                          <td>{{ . }}</td>
+                          {{end}}
+                        </tr>
+                        {{end}}
+                      </tbody>
+                    </table>
                     <br><br>
                   </div>
                   {{end}}
@@ -140,6 +161,7 @@
                 </div>
 
               </div>
+              {{end}}
 
             </p>
             <p>{{ .Date.Format "2 Jan 2006" }}

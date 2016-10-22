@@ -6,7 +6,11 @@ title = "Sickness"
 logo = "logo_sickness.png"
 icon = "icon_sickness.png"
 
-info = "Sickness is my first personal game project. Sickness is a Visual Novel which takes place in modern society, focusing on the criminal underworld of a town called Richmond. Sickness was released in February 2016."
+info = [
+	"Sickness is my first personal game project.",
+	"Sickness is a Visual Novel which takes place in modern society, focusing on the criminal underworld of a town called Richmond.",
+	"Sickness was released in February 2016."
+]
 
 story = [
 	"Sickness is a Visual Novel following the life of Suoh, a high school student turned violent criminal.",
@@ -31,3 +35,35 @@ myrole = "For Sickness, I was the sole creator, writer, programmer, commissioner
 
 
 +++
+
+<!--
+
+
+credits = [
+	['Writer/Programmer/Creator/etc', 'Zetsubou', 'https://zetsubou.games/'],
+    ['Producer', 'Kyle Tyner - Unwonted Studios', 'http://unwontedstudios.com/'],
+    ['Backgrounds', 'Jake Bowkett', 'http://www.jakebowkett.com/'],
+    ['Backgrounds', 'Sendo', 'http://sendraw.deviantart.com'],
+    ['Backgrounds', 'Tomasz Madej', ''],
+    ['Backgrounds', 'Valeria Taranukha', ''],
+    ['Backgrounds', 'Rachel/Richard Marks', ''],
+    ['Backgrounds', 'AimlessArt', ''],
+    ['Backgrounds', 'Rooderoo', ''],
+    ['Sprites', 'Ezri', 'http://www.ezriart.com/'],
+    ['Sprites', 'Monika M.', 'http://psyalera.deviantart.com/'],
+    ['CGs', 'Flora', 'http://floradrawz.com'],
+    ['CGs', 'Chocojax', 'http://art.jphi.me/'],
+    ['GUI Artwork', 'Kingv', 'http://kingv.deviantart.com/'],
+    ['Item Sprites', 'David Fuentes', 'https://www.behance.net/DaveyDsign'],
+    ['Music', 'Cylight Studios', ''],
+    ['Music', 'Mock Off', ''],
+    ['Music', 'Noyemi K.', ''],
+    ['Music', 'Lemmonias', ''],
+    ['Music', 'Alcaknight', 'https://soundcloud.com/alcaknight/'],
+    ['Music', 'Kumiho', 'https://soundcloud.com/kumiho-242898106/'],
+    ['Fonts', '"October Crow" by Chad Savage', 'http://www.sinisterfonts.com'],
+    ['Fonts', '"Robotica" by Courtney Novits', 'http://www.courtneynovits.com/'],
+    ['Fonts', '"1942" by Johan Holmdahl', '']
+]
+
+-->

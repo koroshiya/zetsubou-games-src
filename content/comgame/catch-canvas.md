@@ -6,7 +6,10 @@ title = "Catch Canvas"
 logo = "logo_cc.png"
 icon = "icon_cc.png"
 
-info = "Catch Canvas is a Visual Novel developed by RazzArt Studios and Unwonted Studios. It was funded by a Kickstarter campaign and released on 14 Oct, 2016."
+info = [
+	"Catch Canvas is a Visual Novel developed by RazzArt Studios and Unwonted Studios.",
+	"It was funded by a Kickstarter campaign and released on 14 Oct, 2016."
+]
 
 story = [
 	"In Catch Canvas, you start your adventure as you arrive at your uncle's cabin. Your uncle, a world-renowned artist, has agreed to take you under his wing and help push your art to the next level. Under his tutelage, your work may even be put on display at a prestigious, upcoming art exhibition, known for the instant fame it brings anyone lucky enough to participate.",
