@@ -38,6 +38,8 @@ myrole = "For Sickness, I was the sole creator, writer, programmer, commissioner
 
 <!--
 
+TODO: screenshots section - Use lightbox?
+
 
 credits = [
 	['Writer/Programmer/Creator/etc', 'Zetsubou', 'https://zetsubou.games/'],
