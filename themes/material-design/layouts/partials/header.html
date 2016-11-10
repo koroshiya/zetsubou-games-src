@@ -47,7 +47,9 @@
             {{if .Site.Params.linkedin}}
               <li><a href="https://www.linkedin.com/in/{{.Site.Params.linkedin}}"><img src="{{.Site.BaseURL}}/images/linkedin-dreamstale45.png"></a></li>
             {{end}}
+            {{if .Site.Params.rss}}
               <li><a href="{{.Site.BaseURL}}/index.xml"><img src="{{.Site.BaseURL}}/images/feed-dreamstale27.png"></a></li>
+            {{end}}
               <li><a href="/categories/my-games">My Games</a></li>
               <li><a href="/categories/commissioned-games">Commissioned Games</a></li>
             </ul>
