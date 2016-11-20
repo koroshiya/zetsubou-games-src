@@ -8,7 +8,7 @@ icon = "icon_mm.png"
 
 info = [
 	"Max Massacre is my third personal game project.",
-	"Max Massacre is a short, free Kinetic Novel set in a fictitious, RPG-like fantasy world.",
+	"Max Massacre is a short, free Visual Novel set in a fictitious, RPG-like fantasy world.",
 	"Max Massacre has not yet been released."
 ]
 

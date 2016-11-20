@@ -57,6 +57,7 @@ nav{
 .card-header > h4{
   margin-bottom: 0;
   margin-top: 10px;
+  height:80px;
 }
 .card-header > p > a{
   padding: 10px;
