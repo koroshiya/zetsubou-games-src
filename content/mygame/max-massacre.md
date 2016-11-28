@@ -9,7 +9,7 @@ icon = "icon_mm.png"
 info = [
 	"Max Massacre is my third personal game project.",
 	"Max Massacre is a short, free Visual Novel set in a fictitious, RPG-like fantasy world.",
-	"Max Massacre has not yet been released."
+	"Max Massacre was released on November 29th 2016."
 ]
 
 story = [
@@ -22,6 +22,10 @@ story = [
 
 roletitle = "Creator"
 myrole = "For Max Massacre, I was the sole creator, writer, programmer, commissioner, and several other things. However, I did not create any of the art or music for Max Massacre; I merely hired the people who did."
+
+download = "True"
+itchid = "88591"
+itch = "https://zetsuboushita.itch.io/max-massacre"
 
 +++
 
