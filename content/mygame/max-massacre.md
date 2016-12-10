@@ -20,9 +20,6 @@ story = [
 	"Will Max manage to convince Celeste that the human race is worth protecting? Or will Celeste prove to Max once and for all that his enemy is not demonkind, but the familiar faces of those who deny his humanity?"
 ]
 
-roletitle = "Creator"
-myrole = "For Max Massacre, I was the sole creator, writer, programmer, commissioner, and several other things. However, I did not create any of the art or music for Max Massacre; I merely hired the people who did."
-
 download = "True"
 itchid = "88591"
 itch = "https://zetsuboushita.itch.io/max-massacre"

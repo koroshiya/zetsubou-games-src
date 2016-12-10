@@ -23,9 +23,6 @@ story = [
 	"“Then as the one responsible for all of this, it is my duty to make sure that happens. My name is Kouichirou Nabatame, and from this day onward, Chiyo, you are my daughter.”"
 ]
 
-roletitle = "Creator"
-myrole = "For Wander No More, I was the sole creator, writer, programmer, and several other things. However, I did not create any of the art or music for Wander No More, nor was I in charge of the hiring."
-
 download = "True"
 itch = "https://unwontedstudios.itch.io/wander-no-more"
 itchid = "56258"
@@ -35,7 +32,7 @@ credits = [
 	"Kyle Tyner", "Production", "https://unwontedstudios.itch.io/",
 	"Ruderoo", "Background artwork", "",
 	"Ipari Namuda", "Character sprites and CGs", "",
-	"SundownKid", "GUI Artwork", "http://www.jonathanx.com/",
+	"SundownKid", "GUI artwork", "http://www.jonathanx.com/",
 	"Lemmonias", "Music", "",
 	"tc630", "Sound effects", "https://freesound.org/people/tc630",
 	"midimagician", "Sound effects", "https://freesound.org/people/midimagician",

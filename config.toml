@@ -3,7 +3,7 @@ baseurl = "https://zetsubou.games"
 languageCode = "en-us"
 title = "Zetsubou's development blog"
 
-paginate = 6 # To specify a multiple of 3
+paginate = 12 # To specify a multiple of 3
 
 [params]
 #  description = "Zetsubou's development blog" # optional
