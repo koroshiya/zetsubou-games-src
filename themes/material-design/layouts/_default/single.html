@@ -37,9 +37,15 @@
                     </li>
                     {{end}}
 
-                    {{if .myrole }}
+                    {{if .characters}}
                     <li class="tab col s3">
-                      <a href="#myrole">My Role</a>
+                      <a href="#characters">Characters</a>
+                    </li>
+                    {{end}}
+
+                    {{if .screenshots }}
+                    <li class="tab col s3">
+                      <a href="#screenshots">Screenshots</a>
                     </li>
                     {{end}}
 
@@ -65,6 +71,26 @@
                       <br><br>
                     {{end}}
                     <br><br>
+
+                    {{if .myrole }}
+
+                      <h5>My Role</h5>
+                      <br>
+
+                      {{ .myrole }}
+
+                      <br><br>
+
+                      {{if .disclaimer }}
+                      <br>
+                      <b>Disclaimer</b><br>
+                      My role as a writer means abiding by the guidelines set by my commissioner.<br>
+                      I did not come up with the story, the characters, or even decide on the writing style used for this game.<br>
+                      I simply put my commissioner's story into words.<br><br>
+                      {{end}}
+
+                      <br><br>
+                    {{end}}
                   </div>
 
                   {{with .story }}
@@ -77,26 +103,31 @@
                   </div>
                   {{end}}
 
-                  {{if .myrole }}
-                  <div class="col s12" id="myrole" style="display:none;">
-
-                    {{with .roletitle }}
-                    <h4>{{.}}</h4>
-                    {{end}}
-                    <br>
-
-                    {{ .myrole }}
-
-                    <br><br>
-
-                    {{if .disclaimer }}
-                    <br>
-                    <b>Disclaimer</b><br>
-                    My role as a writer means abiding by the guidelines set by my commissioner.<br>
-                    I did not come up with the story, the characters, or even decide on the writing style used for this game.<br>
-                    I simply put my commissioner's story into words.<br><br>
-                    {{end}}
-
+                  {{with .characters}}
+                  <div class="col s12" id="characters" style="display:none;">
+                    <table>
+                      <tbody>
+                        {{range $index, $page := .}}
+                          {{if modBool $index 3}}
+                            {{if gt $index 0}}
+                              </tr>
+                            {{end}}
+                            <tr>
+                              <td>
+                                <img src="{{$baseurl}}/images/{{$page}}">
+                              </td>
+                          {{else}}
+                            {{if eq ( mod $index 3 ) 1}}
+                            <td>
+                              <h4>{{ $page }}</h4>
+                            {{else}}
+                              <p>{{ $page }}</p>
+                            </td>
+                            {{end}}
+                          {{end}}
+                        {{end}}
+                      </tbody>
+                    </table>
                     <br><br>
                   </div>
                   {{end}}
@@ -151,6 +182,22 @@
                             <tr>
                           {{end}}
                           <td>{{ $page }}</td>
+                        {{end}}
+                      </tbody>
+                    </table>
+                    <br><br>
+                  </div>
+                  {{end}}
+
+                  {{with .screenshots}}
+                  <div class="col s12" id="screenshots" style="display:none;">
+                        {{range $index, $page := .}}
+                          {{if modBool $index 2}}
+                            <a href="{{$baseurl}}/images/{{$page}}">
+                          {{else}}
+                              <img src="{{$baseurl}}/images/{{$page}}">
+                            </a>
+                          {{end}}
                         {{end}}
                       </tbody>
                     </table>

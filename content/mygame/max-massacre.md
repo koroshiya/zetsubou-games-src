@@ -39,8 +39,22 @@ credits = [
 	"Doug Miles", 'Font - "Black Chancery"', "http://www.dafont.com/black-chancery.font",
 ]
 
-+++
+screenshots = [
+	"mm/full/1.jpg", "mm/thumb/1.jpg",
+	"mm/full/2.jpg", "mm/thumb/2.jpg",
+	"mm/full/3.jpg", "mm/thumb/3.jpg",
+	"mm/full/4.jpg", "mm/thumb/4.jpg",
+	"mm/full/5.jpg", "mm/thumb/5.jpg"
+]
 
-<!-- story = "..."
-download = "Unreleased."
-credits = "..." -->
+characters = [
+	"mm/characters/max.jpg",
+	"Max",
+	"The main character of Max Massacre. Max is a young man who believes that everyone is good at heart. He is naive to a fault, and wishes to get along with everyone, despite how poorly they treat him. Max is very strong, and dreams of becoming a hero who might liberate the human race from their oppressors.",
+	
+	"mm/characters/celeste.jpg",
+	"Celeste",
+	"Max's best friend and love interest. Celeste is an orphan whose resourcefulness and cunning are exceeded only by her skill in magic. Celeste is kind to others, attracting good faith and affection from the villagers who scorn Max. Little do they know that her actions are merely for self-preservation; Celeste is actually a prideful, petty woman who holds a deep grudge against those who make Max's life hell."
+]
+
++++

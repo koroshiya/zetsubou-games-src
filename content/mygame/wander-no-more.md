@@ -42,4 +42,13 @@ credits = [
 	"Abbie Bess Meson (Bess Rebel Creative)", 'Font - "TheStruggleIsReal"', "http://www.bessrebel.com/"
 ]
 
+
+screenshots = [
+	"wnm/full/1.jpg", "wnm/thumb/1.jpg",
+	"wnm/full/2.jpg", "wnm/thumb/2.jpg",
+	"wnm/full/3.jpg", "wnm/thumb/3.jpg",
+	"wnm/full/4.jpg", "wnm/thumb/4.jpg",
+	"wnm/full/5.jpg", "wnm/thumb/5.jpg"
+]
+
 +++

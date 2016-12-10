@@ -29,4 +29,11 @@ steam = ""
 itchid = "95428"
 itch = "https://sendo.itch.io/to-libertad"
 
+screenshots = [
+	"tl/full/1.jpg", "tl/thumb/1.jpg",
+	"tl/full/2.jpg", "tl/thumb/2.jpg",
+	"tl/full/3.jpg", "tl/thumb/3.jpg",
+	"tl/full/4.jpg", "tl/thumb/4.jpg"
+]
+
 +++
