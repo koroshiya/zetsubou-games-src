@@ -30,4 +30,19 @@ download = "True"
 itch = "https://unwontedstudios.itch.io/wander-no-more"
 itchid = "56258"
 
+credits = [
+	"Zetsubou", "Writing, programming, etc.", "https://zetsubou.games/",
+	"Kyle Tyner", "Production", "https://unwontedstudios.itch.io/",
+	"Ruderoo", "Background artwork", "",
+	"Ipari Namuda", "Character sprites and CGs", "",
+	"SundownKid", "GUI Artwork", "http://www.jonathanx.com/",
+	"Lemmonias", "Music", "",
+	"tc630", "Sound effects", "https://freesound.org/people/tc630",
+	"midimagician", "Sound effects", "https://freesound.org/people/midimagician",
+	"minian89", "Sound effects", "https://freesound.org/people/minian89",
+	"Kuju Kotonoha (Kotonoha Works)", 'Font - "Yozakura"', "https://www.azfonts.net/designers/kotonoha-kuju.html",
+	"Omer Agiv", 'Font - "Samurai"', "https://www.azfonts.net/designers/omer-agiv.html",
+	"Abbie Bess Meson (Bess Rebel Creative)", 'Font - "TheStruggleIsReal"', "http://www.bessrebel.com/"
+]
+
 +++
