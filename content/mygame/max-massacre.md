@@ -27,6 +27,21 @@ download = "True"
 itchid = "88591"
 itch = "https://zetsuboushita.itch.io/max-massacre"
 
+credits = [
+	"Zetsubou", "Writing, programming, etc.", "https://zetsubou.games/",
+	"Sendo", "Background artwork", "https://sendo.itch.io/",
+	"Adyrn", "Character sprites and CGs", "http://adyrn.weebly.com/",
+	"ds-sans", "GUI Artwork", "https://lemmasoft.renai.us/forums/viewtopic.php?f=62&t=36158",
+	"Calypso", "Music", "https://soundcloud.com/calypsogames",
+	"Alcaknight", 'Music - "Dreamwalker"', "https://soundcloud.com/alcaknight/original-composition-dreamwalker",
+	"PorkMuncher", "Sound effects", "https://freesound.org/people/PorkMuncher/sounds/263595/",
+	"duckduckpony", "Sound effects", "https://freesound.org/people/duckduckpony/sounds/204036/",
+	"newagesoup", "Sound effects", "https://freesound.org/people/newagesoup/sounds/347314/",
+	"kMoon", "Sound effects", "https://freesound.org/people/kMoon/sounds/90789/",
+	"Earl Allen", 'Font - "Black Chancery"', "http://www.dafont.com/black-chancery.font",
+	"Doug Miles", 'Font - "Black Chancery"', "http://www.dafont.com/black-chancery.font",
+]
+
 +++
 
 <!-- story = "..."

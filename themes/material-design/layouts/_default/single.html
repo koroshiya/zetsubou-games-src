@@ -140,15 +140,17 @@
                       <thead>
                         <th>Role</th>
                         <th>Name</th>
-                        <th>Website</th>
+                        <th>Link</th>
                       </thead>
                       <tbody>
-                        {{ range . }}
-                        <tr>
-                          {{ range . }}
-                          <td>{{ . }}</td>
+                        {{range $index, $page := .}}
+                          {{if modBool $index 3}}
+                            {{if gt $index 0}}
+                              </tr>
+                            {{end}}
+                            <tr>
                           {{end}}
-                        </tr>
+                          <td>{{ $page }}</td>
                         {{end}}
                       </tbody>
                     </table>
