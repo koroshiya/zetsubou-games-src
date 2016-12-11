@@ -51,4 +51,14 @@ screenshots = [
 	"wnm/full/5.jpg", "wnm/thumb/5.jpg"
 ]
 
+characters = [
+	"wnm/characters/kou.jpg",
+	"Kouichirou Nabatame",
+	"Kouichirou was once the captain of Mirai Kingdom's Kodokushi, an elite band of samurai devoted to protecting the masses. He is a peerless swordsman, and has been since a young age. Other people have always hated and feared Kouichirou because of his skill with a blade. Despite being an efficient and ruthless killer, Kouichirou is a kind, charismatic man who wants nothing more than to live in peace. Kouichirou initially sees Chiyo as his chance at redemption, but over time he realizes that he's suited to the role of a family man, and resolves to protect Chiyo with his life.",
+	
+	"wnm/characters/chiyo.jpg",
+	"Chiyo Ayase",
+	"Chiyo was born in Hotsu village, and has lived her entire life cut off from the neighboring kingdoms on either side. Although she could aptly be called a village girl, Chiyo is by no means naive. She has never had many friends, and trust does not come easily to her. Thanks to her disability, there are many things Chiyo cannot do. Chiyo makes up for this by readily applying herself to anything she is able to do, going above and beyond what others expect of her. Outside of her late family, Kouichirou is the one person in whom Chiyo places her trust, albeit hard-earned. She no longer blames Kouichirou for what happened to her village, and instead tries to think about the future."
+]
+
 +++
