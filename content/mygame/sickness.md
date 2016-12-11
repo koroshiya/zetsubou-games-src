@@ -33,39 +33,63 @@ itch = "https://zetsuboushita.itch.io/sickness"
 roletitle = "Creator"
 myrole = "For Sickness, I was the sole creator, writer, programmer, commissioner, and several other things. However, I did not create any of the art or music for Sickness; I merely hired the people who did."
 
-
-+++
-
-<!--
-
-TODO: screenshots section - Use lightbox?
-
-
 credits = [
-	['Writer/Programmer/Creator/etc', 'Zetsubou', 'https://zetsubou.games/'],
-    ['Producer', 'Kyle Tyner - Unwonted Studios', 'http://unwontedstudios.com/'],
-    ['Backgrounds', 'Jake Bowkett', 'http://www.jakebowkett.com/'],
-    ['Backgrounds', 'Sendo', 'http://sendraw.deviantart.com'],
-    ['Backgrounds', 'Tomasz Madej', ''],
-    ['Backgrounds', 'Valeria Taranukha', ''],
-    ['Backgrounds', 'Rachel/Richard Marks', ''],
-    ['Backgrounds', 'AimlessArt', ''],
-    ['Backgrounds', 'Rooderoo', ''],
-    ['Sprites', 'Ezri', 'http://www.ezriart.com/'],
-    ['Sprites', 'Monika M.', 'http://psyalera.deviantart.com/'],
-    ['CGs', 'Flora', 'http://floradrawz.com'],
-    ['CGs', 'Chocojax', 'http://art.jphi.me/'],
-    ['GUI Artwork', 'Kingv', 'http://kingv.deviantart.com/'],
-    ['Item Sprites', 'David Fuentes', 'https://www.behance.net/DaveyDsign'],
-    ['Music', 'Cylight Studios', ''],
-    ['Music', 'Mock Off', ''],
-    ['Music', 'Noyemi K.', ''],
-    ['Music', 'Lemmonias', ''],
-    ['Music', 'Alcaknight', 'https://soundcloud.com/alcaknight/'],
-    ['Music', 'Kumiho', 'https://soundcloud.com/kumiho-242898106/'],
-    ['Fonts', '"October Crow" by Chad Savage', 'http://www.sinisterfonts.com'],
-    ['Fonts', '"Robotica" by Courtney Novits', 'http://www.courtneynovits.com/'],
-    ['Fonts', '"1942" by Johan Holmdahl', '']
+    'Zetsubou', 'Writing, programming, etc.', 'https://zetsubou.games/',
+    'Kyle Tyner', 'Production', "https://unwontedstudios.itch.io/",
+    'Jake Bowkett', 'Background artwork', 'http://www.jakebowkett.com/',
+    'Sendo', 'Background artwork', 'https://sendo.itch.io/',
+    'Tomasz Madej', 'Background artwork', '',
+    'Valeria Taranukha', 'Background artwork', '',
+    'Rachel/Richard Marks', 'Background artwork', '',
+    'AimlessArt', 'Background artwork', '',
+    'Rooderoo', 'Background artwork', '',
+    'Ezri', 'Character sprites', 'http://www.ezriart.com/',
+    'Monika M.', 'Character sprites', 'http://psyalera.deviantart.com/',
+    'Flora', 'CG artwork', 'http://floradrawz.com',
+    'Chocojax', 'CG artwork', 'http://art.jphi.me/',
+    'Kingv', 'GUI Artwork', 'http://kingv.deviantart.com/',
+    'David Fuentes', 'Object images', 'https://www.behance.net/DaveyDsign',
+    'Cylight Studios', 'Music', '',
+    'Mock Off', 'Music', '',
+    'Noyemi K.', 'Music', '',
+    'Lemmonias', 'Music', '',
+    'Alcaknight', 'Music', 'https://soundcloud.com/alcaknight/',
+    'Kumiho', 'Music', 'https://soundcloud.com/kumiho-242898106/',
+    'Chad Savage', 'Fonts - "October Crow"', 'http://www.sinisterfonts.com',
+    'Courtney Novits', 'Fonts - "Robotica"', 'http://www.courtneynovits.com/',
+    'Johan Holmdahl', 'Fonts - "1942"', ''
 ]
 
--->
+screenshots = [
+    "sickness/full/1.jpg", "sickness/thumb/1.jpg",
+    "sickness/full/2.jpg", "sickness/thumb/2.jpg",
+    "sickness/full/3.jpg", "sickness/thumb/3.jpg",
+    "sickness/full/4.jpg", "sickness/thumb/4.jpg",
+    "sickness/full/5.jpg", "sickness/thumb/5.jpg",
+    "sickness/full/6.jpg", "sickness/thumb/6.jpg"
+]
+
+characters = [
+    "sickness/characters/suoh.jpg",
+    "Suoh Tesla",
+    "The main character of Sickness. Suoh is a recently-orphaned youth with a violent past. He is quite amoral, and has no problem performing criminal acts. Since an incident which put him in the hospital with a serious head wound, he has begun to hear voices and see things that aren't really there. Although he tries to keep his life together for the sake of his twin sister, Suoh is quickly heading down a very dangerous path.",
+    
+    "sickness/characters/sara.jpg",
+    "Sara Tesla",
+    "Sara is a high school student who harbors complex feelings. To her brother, Sara is an angelic sister with a loving nature and endless affection; an image she cultivates and builds on daily. To everyone else, however, Sara is narcissistic and thoroughly two-faced. Family aside, Sara doesn't care for other people in the slightest, and as a result of her desperately trying to hide this fact, her family mistakenly believe Sara to be bipolar.",
+
+    "sickness/characters/karasu.jpg",
+    "Karasu (real name unknown)",
+    "Karasu is an up & coming crime lord in the city of Richmond. Karasu builds his wealth through a variety of “services”, including, but not limited to: gambling, corporate espionage, and organ trafficking. Above all, however, Karasu is most famous for providing “waste disposal” (assassinations) for neighboring towns, whether they request his services or not. His ultimate goal is to build an empire he can share with his beloved “children”; interesting individuals he has taken under his wing and granted a new lease on life. Though many view him as a sadistic narcissist who will stop at nothing to obtain what he wants, Karasu is ultimately a simple businessman who displays affection only for a chosen few.",
+
+    "sickness/characters/sai.jpg",
+    "Sai (real name unknown)",
+    "Sai is Karasu's most trusted and capable employee, responsible for overseeing his most lucrative business ventures, despite always working in the shadows. He is also responsible for “breaking in” new recruits, and as such becomes Suoh's teacher. Unrivaled in what he does, Sai is a ruthless killer who feels no remorse; those who get on his bad side seldom live long enough to realize it. The only things more important to Sai than his work are his daughter's well-being and happiness.",
+
+    "sickness/characters/misa.jpg",
+    "Misa",
+    "Misa is a teenage girl who wishes for a normal life. Being the daughter of a professional killer (and protective father), however, Misa has trained from a young age in order to protect herself from the dangers of the world, and in doing so inevitably became aware of her father's line of work. As her father's work absorbed her life, Misa adapted her skillset to match those of a killer, using her youth and small figure to become the youngest and most discreet killer among her peers. Outside of work, Misa is still just a young girl. She's very friendly, once she warms up to someone, and is protective of those close to her."
+
+]
+
++++
