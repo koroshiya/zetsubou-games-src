@@ -7,7 +7,8 @@ logo = "logo_lr.jpg"
 icon = "icon_lr.jpg"
 
 info = [
-	"Love Ribbon is a Yuri (Girl x Girl) Visual Novel being developed by RazzArt Studios."
+	"Love Ribbon is a Yuri (Girl x Girl) Visual Novel developed by RazzArt Studios.",
+	"Love Ribbon was released on January 27th 2017."
 ]
 
 story = [
@@ -21,7 +22,8 @@ roletitle = "Co-Writer"
 myrole = "I was one of two writers for Love Ribbon."
 disclaimer = "True"
 
-download = ""
+download = "True"
+steam = "559610"
 itch = ""
 itchid = ""
 
