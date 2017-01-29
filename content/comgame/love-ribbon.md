@@ -24,7 +24,7 @@ disclaimer = "True"
 
 download = "True"
 steam = "559610"
-itch = ""
-itchid = ""
+itch = "https://razzartvisual.itch.io/loveribbon"
+itchid = "91026"
 
 +++
