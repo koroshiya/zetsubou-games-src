@@ -4,7 +4,7 @@ Tags = []
 date = "2016-11-20T13:55:33+11:00"
 title = "Tomboys Need Love Too!"
 logo = "logo_.png"
-icon = "icon_.png"
+icon = "icon_tnlt.png"
 
 info = [
 	"Tomboys Need Love Too! is my fifth personal game project.",

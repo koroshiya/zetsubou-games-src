@@ -4,7 +4,7 @@ Tags = []
 date = "2016-11-20T12:43:03+10:00"
 title = "Humanity Must Perish"
 logo = "logo_.png"
-icon = "icon_.png"
+icon = "icon_hmp.png"
 
 info = [
 	"Humanity Must Perish is my fourth personal game project.",
@@ -25,6 +25,16 @@ story = [
 
 roletitle = "Creator"
 myrole = "For Humanity Must Perish, I was the sole creator, writer, programmer, commissioner, and several other things. However, I did not create any of the art or music for Humanity Must Perish; I merely hired the people who did."
+
+characters = [
+	"hmp/characters/kyuu.jpg",
+	"Kyuu",
+	"Kyuu is an android who possesses world-class hardware and cutting-edge software. Despite her sophisticated AI and frightening processing power, however, Kyuu lacks the social skills necessary to fully understand others. Her words and actions seem nonsensical to everyday human beings, and in return, Kyuu often fails to grasp the illogical actions and meaningless words of the peculiar race known as mankind.",
+
+	"hmp/characters/prof.jpg",
+	"The Professor",
+	"The Professor is an old man who has dedicated his life to the study of robotics. Although he appears to be an anti-social scientist who favors machines over humans, he is actually an altruist who believes that robots may one day save humanity. To that end, The Professor spends his days cooped up in his lab, isolated from the rest of the human race, working on and happily conversing with his creations."
+]
 
 +++
 
