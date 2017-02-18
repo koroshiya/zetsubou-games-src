@@ -24,6 +24,7 @@ story = [
 ]
 
 download = "True"
+steam = "463020"
 itch = "https://unwontedstudios.itch.io/wander-no-more"
 itchid = "56258"
 
