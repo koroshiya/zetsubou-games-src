@@ -9,7 +9,7 @@ icon = "icon_hmp.png"
 info = [
 	"Humanity Must Perish is my fourth personal game project.",
 	"Humanity Must Perish is a short, free Visual Novel set in the future. The main genre is comedy, but there's also an emphasis on technology/sci-fi.",
-	"Humanity Must Perish has not yet been released."
+	"Humanity Must Perish was released on April 1st, 2017."
 ]
 
 story = [
@@ -34,8 +34,23 @@ characters = [
 	"The Professor is an old man who has dedicated his life to the study of robotics. Although he appears to be an anti-social scientist who favors machines over humans, he is actually an altruist who believes that robots may one day save humanity. To that end, The Professor spends his days cooped up in his lab, isolated from the rest of the human race, working on and happily conversing with his creations."
 ]
 
-+++
+download = "True"
+itchid = "118845"
+itch = "https://zetsuboushita.itch.io/humanity-must-perish"
 
-<!-- story = "..."
-download = "Unreleased."
-credits = "..." -->
+credits = [
+	"Zetsubou", "Writing, programming, etc.", "https://zetsubou.games/",
+	"Sendo", "Artwork", "https://sendo.itch.io/",
+	"Eric Matyas", "Music", "http://soundimage.org/",
+	"Namastaii", "Music", "https://soundcloud.com/deadseed/",
+]
+
+screenshots = [
+	"hmp/full/1.jpg", "hmp/thumb/1.jpg",
+	"hmp/full/2.jpg", "hmp/thumb/2.jpg",
+	"hmp/full/3.jpg", "hmp/thumb/3.jpg",
+	"hmp/full/4.jpg", "hmp/thumb/4.jpg",
+	"hmp/full/5.jpg", "hmp/thumb/5.jpg"
+]
+
++++
