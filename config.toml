@@ -7,7 +7,7 @@ paginate = 12 # To specify a multiple of 3
 
 [params]
 #  description = "Zetsubou's development blog" # optional
-  github = "koroshiya" # optional
+  #github = "koroshiya"
   twitter = "zetsubougames"
   headerCover = "images/headerCover.png" # optional
   footerCover = "images/footerCover.png" # optional

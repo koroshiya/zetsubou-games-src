@@ -9,7 +9,7 @@ icon = "icon_tnlt.png"
 info = [
 	"Tomboys Need Love Too! is my fifth personal game project.",
 	"Tomboys Need Love Too! is a Visual Novel. The main genres are romance and comedy. It is 65,000 words in length, and contains 5 different endings.",
-	"Tomboys Need Love Too! has not yet been released."
+	"Tomboys Need Love Too! was released on May 12th, 2017."
 ]
 
 story = [
@@ -38,8 +38,9 @@ characters = [
 	"A goddess to the boys, and an adversary to the girls. Sophie is simultaneously the most loved and hated girl in school. She acts kind and considerate towards others inside the classroom, yet there are many rumors circulating that she is a depraved man-stealer who believes in an exceedingly warped notion of love, and derives pleasure from ruining the relationships of others."
 ]
 
-+++
+download = "True"
+steam = "628920"
+itchid = "131724"
+itch = "https://zetsuboushita.itch.io/tomboys-need-love-too"
 
-<!-- story = "..."
-download = "Unreleased."
-credits = "..." -->
++++
