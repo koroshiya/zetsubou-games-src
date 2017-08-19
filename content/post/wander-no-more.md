@@ -26,6 +26,7 @@ download = "True"
 steam = "463020"
 itch = "https://unwontedstudios.itch.io/wander-no-more"
 itchid = "56258"
+gplay = "games.zetsubou.wandernomore"
 
 credits = [
 	"Zetsubou", "Writing, programming, etc.", "https://zetsubou.games/",

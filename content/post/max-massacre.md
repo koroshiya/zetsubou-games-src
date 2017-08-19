@@ -22,6 +22,7 @@ story = [
 download = "True"
 itchid = "88591"
 itch = "https://zetsuboushita.itch.io/max-massacre"
+gplay = "games.zetsubou.maxmassacre"
 
 credits = [
 	"Zetsubou", "Writing, programming, etc.", "https://zetsubou.games/",
