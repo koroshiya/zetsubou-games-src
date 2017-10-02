@@ -37,6 +37,7 @@ download = "True"
 itchid = "118845"
 itch = "https://zetsuboushita.itch.io/humanity-must-perish"
 gplay = "games.zetsubou.hmp"
+steam = "657050"
 
 credits = [
 	"Zetsubou", "Writing, programming, etc.", "https://zetsubou.games/",
