@@ -11,7 +11,7 @@ info = [
 	"18+ content patches are currently available for: Tomboys Need Love Too",
 	"The patch(es) can be downloaded from any of the following:",
 	'-SpiderOak: https://spideroak.com/browse/share/ZetsubouGames/Adult_Patches',
-	'-Google Drive: https://drive.google.com/drive/folders/0B_maWEbOjCs_akg5M180N29NcHc',
+	'-Google Drive: https://drive.google.com/drive/folders/1I9DNCoYWJh9IXETNukHkTwPOnZ3Hk0bR',
 	'-Mega: https://mega.nz/#F!W5d32IhT!P-XG1ZfqQGJY2QvXBfJe_Q',
 	"",
 	"How to apply:",
