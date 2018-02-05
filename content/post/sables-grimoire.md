@@ -68,8 +68,8 @@ characters = [
 	"Eris is a succubus who abuses her powers on a daily basis, frequently manipulating students into doing her bidding. She is also lazy, unenthusiastic, and has been cautioned many times about engaging in inappropriate relationships with students. Some say she used to be a kind, caring teacher, who loved her job, and wanted the best for her students."
 ]
 
-download = ""
-steam = "717850"
+download = "True"
+steam = ""
 itchid = "182237"
 itch = "https://zetsuboushita.itch.io/sables-grimoire"
 
