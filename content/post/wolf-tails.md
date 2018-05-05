@@ -6,7 +6,8 @@ title = "Wolf Tails"
 image = "images/wt/logo.jpg"
 
 info = [
-        "Wolf Tails is a Visual Novel developed by RazzArt Studios."
+        "Wolf Tails is a Visual Novel developed by RazzArt Studios.",
+        "It was released on the 4th of May, 2018."
 ]
 
 story = [
@@ -20,8 +21,8 @@ myrole = "I was the main writer for Wolf Tails, with additional content and edit
 disclaimer = "True"
 
 download = "False"
-itch = "https://razzartvisual.itch.io/"
-itchid = ""
+itch = "https://razzartvisual.itch.io/wolftails"
+itchid = "245174"
 steam = "822930"
 
 screenshots = [
