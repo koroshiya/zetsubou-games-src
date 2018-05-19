@@ -1,21 +1,19 @@
 +++
 Categories = ["My Games"]
 Tags = []
-date = "2017-11-12T13:55:33+11:00"
+date = "2018-05-12T13:55:33+11:00"
 title = "Sable's Grimoire"
 image = "images/sg/logo.png"
 
 info = [
 	"Sable's Grimoire is my sixth personal game project.",
 	"Sable's Grimoire is a Visual Novel. It takes place in a magic academy, and most of the characters are demi-humans, such as elves and pixies.",
-	"Sable's Grimoire is still being developed. Its release is planned for July 2018."
+	"Sable's Grimoire was released on May 19th 2018."
 ]
 
 story = [
-	"When Sable is accepted into Amadronia Magic Academy, a prestigious academy famous for its resources and curriculum, he believes that he has crossed an important milestone in his life.",
-	"As an aspiring magic researcher, not to mention one of the few pure-blooded human beings capable of using magic, Sable has high hopes for his time at Amadronia. His dream of becoming a world-renowned magic researcher is finally within his grasp, and with the assistance of the much-lauded teaching staff at Amadronia, he is sure that the next few years of his life will be as productive as they are enlightening.",
-	"Unfortunately for Sable, his first day at Amadronia quickly proves to him that this will not be the case.",
-	"Arrogant elves, a ravenous rokurokubi, a poison-tongued mandragora, a pyromaniac dragon, unenthusiastic teachers - Amadronia is nothing like Sable envisioned. The students in his class are unruly, his \"teacher\" has no interest in teaching, the principal wilfully breaks academy rules, and it seems like everywhere he turns, Sable finds one more reason to doubt Amadronia's proud legacy.",
+	"When Sable is accepted into Amadronia Magic Academy, he believes that his dream of becoming a world-renowned magic researcher is finally within his grasp. As one of the few pure-blooded humans capable of using magic, Sable is hopeful that he’ll find common ground with the demi-human population at the school, and that the next few years of his life will be as productive as they are enlightening.",
+	"Unfortunately for Sable, his first day at Amadronia quickly proves to him that this will not be the case. The students in his class are unruly, there’s a pyromanic dragon girl running around, his \"teacher\" has no interest in teaching, the principal willfully breaks academy rules, and it seems like everywhere he turns, Sable finds one more reason to doubt Amadronia's proud legacy.",
 	"Will Sable manage to survive at this clearly dysfunctional academy? Or will he, like so many others, leave Amadronia feeling utterly disillusioned?"
 ]
 
@@ -69,7 +67,7 @@ characters = [
 ]
 
 download = "True"
-steam = ""
+steam = "717850"
 itchid = "182237"
 itch = "https://zetsuboushita.itch.io/sables-grimoire"
 
