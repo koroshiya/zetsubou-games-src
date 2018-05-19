@@ -15,8 +15,8 @@ info = [
 	'-Mega: https://mega.nz/#F!W5d32IhT!P-XG1ZfqQGJY2QvXBfJe_Q',
 	"",
 	"How to apply:",
-	'-Download the patch file from one of the links above',
-	'-In the main menu of the game, click on the Apply button (next to the Download button) to open a folder on your computer. The folder is called "game", and it will contain several .rpa files',
+	'-Download the appropriate patch file from one of the links above. Look for either (Steam) or (Itch) in the file name when choosing which patch to download.',
+	'-In the main menu of the game, click on the Apply button to open a folder on your computer. The folder is called "game", and it will contain several .rpa files',
 	'-Place the patch file you have downloaded into the "game" folder',
 	'-Close the game and reopen it',
 	"And that's it! Copy the patch into the game folder, then close and reopen the game. After that, the game will enable any adult content that was disabled."
