@@ -69,7 +69,7 @@ characters = [
 download = "True"
 steam = "717850"
 itchid = "182237"
-itch = "https://zetsuboushita.itch.io/sables-grimoire"
+jast = "sables-grimoire"
 
 screenshots = [
     "sg/full/1.jpg", "sg/thumb/1.jpg",

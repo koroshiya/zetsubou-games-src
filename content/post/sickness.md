@@ -27,7 +27,7 @@ story = [
 download = "True"
 steam = "413870"
 itchid = "51351"
-itch = "https://zetsuboushita.itch.io/sickness"
+jast = "sickness"
 
 roletitle = "Creator"
 myrole = "For Sickness, I was the sole creator, writer, programmer, commissioner, and several other things. However, I did not create any of the art or music for Sickness; I merely hired the people who did."

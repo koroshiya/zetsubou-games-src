@@ -40,7 +40,7 @@ characters = [
 download = "True"
 steam = "628920"
 itchid = "131724"
-itch = "https://zetsuboushita.itch.io/tomboys-need-love-too"
+jast = "tomboys-need-love-too"
 
 screenshots = [
     "tnlt/full/1.jpg", "tnlt/thumb/1.jpg",

@@ -21,9 +21,9 @@ myrole = "I was the main writer for Wolf Tails, with additional content and edit
 disclaimer = "True"
 
 download = "False"
-itch = "https://razzartvisual.itch.io/wolftails"
 itchid = "245174"
 steam = "822930"
+jast = "wolf-tails"
 
 screenshots = [
     "wt/full/1.jpg", "wt/thumb/1.jpg",

@@ -32,7 +32,7 @@ screenshots = [
 
 download = "True"
 steam = "559610"
-itch = "https://razzartvisual.itch.io/loveribbon"
 itchid = "91026"
+jast = "love-ribbon"
 
 +++
