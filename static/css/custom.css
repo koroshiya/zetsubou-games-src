@@ -100,7 +100,7 @@ body{
 
 .top-navigation{
  background: url('/images/logo_smallest.png') no-repeat center;
- height:501px;
+ height:250px;
 }
 .top-navigation > div{
  display:none;
