@@ -20,7 +20,7 @@ roletitle = "Writer"
 myrole = "I was the main writer for Wolf Tails, with additional content and edits being made to the script later on by another party."
 disclaimer = "True"
 
-download = "False"
+download = "True"
 itchid = "245174"
 steam = "822930"
 jast = "wolf-tails"
