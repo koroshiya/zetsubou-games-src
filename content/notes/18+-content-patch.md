@@ -13,6 +13,7 @@ info = [
 	
 	'-Google Drive: https://drive.google.com/drive/folders/1I9DNCoYWJh9IXETNukHkTwPOnZ3Hk0bR',
 	'-Mega: https://mega.nz/#F!W5d32IhT!P-XG1ZfqQGJY2QvXBfJe_Q',
+	'-Nextcloud: https://cloud.zetsubou.games/s/fELpyZEJkAsyPeG',
 	"",
 	"How to apply:",
 	'-Download the appropriate patch file from one of the links above. Look for either (Steam) or (Itch) in the file name when choosing which patch to download.',
