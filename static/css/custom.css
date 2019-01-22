@@ -125,3 +125,22 @@ body{
 .site-footer{
  display:none;
 }
+
+.navbar-toggle
+{ float:left;
+}
+
+.navbar-toggle > span{
+ background-color:white;
+}
+
+.category-header{
+ display:none;
+}
+
+.tab{
+ width: auto !important;
+ margin-left: 15px !important;
+
+ margin-right: 15px !important;
+}
