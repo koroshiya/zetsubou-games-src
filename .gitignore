@@ -4,3 +4,4 @@ export/git2
 versions
 current
 content/logs/
+.ghostpid
