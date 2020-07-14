@@ -10,5 +10,6 @@ find ./127.0.0.1/ \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 
 find ./127.0.0.1/ \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/rss\/" rel="self"/rss\/feed.xml" rel="self"/g'
 find ./127.0.0.1/ -type d -name "amp" -exec rm -rf "{}" \;
 find ./127.0.0.1/ -type f -print0 | xargs -0 sed -i 's/http:\/\/127\.0\.0\.1//g'
-find ./127.0.0.1/ -type f -print0 | xargs -0 sed -i 's/\.\.\//\//g'
+#find ./127.0.0.1/ -type f -print0 | xargs -0 sed -i 's/\.\.\/\.\.\//\//g'
+#find ./127.0.0.1/ -type f -print0 | xargs -0 sed -i 's/\.\.\//\//g'
 mv tmpgit 127.0.0.1/.git
