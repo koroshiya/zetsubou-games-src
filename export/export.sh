@@ -5,7 +5,7 @@ wget --recursive --page-requisites --html-extension --restrict-file-names=window
 echo "zetsubou.games" > zetsubou.games/CNAME
 
 mv zetsubou.games/assets/built/casper.js* zetsubou.games/assets/built/casper.js
-mv zetsubou.games/assets/built/screen.css@v=32a9c065be.css zetsubou.games/assets/built/screen.css
+mv zetsubou.games/assets/built/screen.css*.css zetsubou.games/assets/built/screen.css
 mv zetsubou.games/public/cards.min.css* zetsubou.games/public/cards.min.css
 mv zetsubou.games/public/cards.min.js* zetsubou.games/public/cards.min.js
 mv zetsubou.games/public/comment-counts.min.js* zetsubou.games/public/comment-counts.min.js
