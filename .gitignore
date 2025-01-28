@@ -6,4 +6,5 @@ export/zetsubou.games
 versions
 current
 content/logs/
+content/data/zetsubou-games.ghost.*.json
 .ghostpid
